@@ -1,0 +1,69 @@
+{
+    "title": "Le Socket - Dettagli",
+    "navbar": {
+      "logoAlt": "Logo",
+      "links": [
+        { "name": "Home", "href": "index.html" },
+        { "name": "Socket", "href": "socket.html" },
+        { "name": "ISO/OSI", "href": "ISO_OSI.html" },
+        { "name": "Protocolli", "href": "Differenze_TCP_UDP.html" },
+        { "name": "Glossario", "href": "Glossario.html" }
+      ]
+    },
+    "mainContent": {
+      "header": {
+        "title": "Cosa sono le socket",
+        "subtitle": "Come funzionano, le loro tipologie e il processo di comunicazione tra client e server."
+      },
+      "sections": [
+        {
+          "id": "section1",
+          "image": {
+            "src": "img/socket2.gif",
+            "alt": "Esempio di Socket"
+          },
+          "title": "Come Funziona una Socket?",
+          "text": "Una socket \u00e8 un punto di connessione in una rete che permette la comunicazione tra due dispositivi. Un esempio comune \u00e8 una applicazione client-server: il client invia una richiesta attraverso la socket, e il server risponde tramite un\u2019altra socket stabilendo un canale di comunicazione. Ad esempio, quando visiti un sito web, il browser agisce come client e la pagina web \u00e8 ospitata su un server, il quale risponde alla richiesta inviando i dati necessari."
+        },
+        {
+          "id": "section2",
+          "image": {
+            "src": "/img/tcpudp2.jpg",
+            "alt": "TCP vs UDP"
+          },
+          "title": "Tipologie di Socket: TCP e UDP",
+          "text": "Le socket possono essere di due tipi principali: TCP (Transmission Control Protocol) e UDP (User Datagram Protocol). TCP \u00e8 un protocollo orientato alla connessione, che assicura che i dati vengano trasmessi in modo affidabile. Al contrario, UDP \u00e8 un protocollo senza connessione, che non garantisce la consegna dei dati ma \u00e8 pi\u00f9 veloce, rendendolo ideale per applicazioni che richiedono velocit\u00e0 come il gaming o lo streaming.",
+          "link": {
+            "href": "/Differenze_TCP_UDP.html",
+            "text": "Scopri le differenze tra TCP e UDP"
+          }
+        },
+        {
+          "id": "videoSection",
+          "video": {
+            "src": "https://www.youtube.com/embed/-utm73RxNo4?si=rl3o13YZbRSEioWt&playlist=-utm73RxNo4&loop=1",
+            "title": "YouTube video player"
+          },
+          "text": "Guarda il video per scoprire di pi\u00f9"
+        }
+      ]
+    },
+    "footer": {
+      "logoAlt": "Logo",
+      "author": "Michele Cervati 5\u00b0F",
+      "links": [
+        { "name": "Home", "href": "index.html" },
+        { "name": "Socket", "href": "socket.html" },
+        { "name": "ISO/OSI", "href": "ISO_OSI.html" },
+        { "name": "Protocolli", "href": "Differenze_TCP_UDP.html" },
+        { "name": "Glossario", "href": "Glossario.html" }
+      ],
+      "social": {
+        "instagram": {
+          "href": "#",
+          "text": "Instagram"
+        }
+      }
+    }
+  }
+  

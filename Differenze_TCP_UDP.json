@@ -1,0 +1,84 @@
+
+{
+    "title": "Differenze TCP/UDP",
+    "navbar": {
+      "logoAlt": "Logo",
+      "links": [
+        { "name": "Home", "href": "index.html" },
+        { "name": "Socket", "href": "socket.html" },
+        { "name": "ISO/OSI", "href": "ISO_OSI.html" },
+        { "name": "Protocolli", "href": "Differenze_TCP_UDP.html" },
+        { "name": "Glossario", "href": "Glossario.html" }
+      ]
+    },
+    "mainContent": {
+      "header": {
+        "title": "Differenze tra TCP e UDP",
+        "subtitle": "Scopri le caratteristiche e i casi d'uso dei protocolli TCP e UDP."
+      },
+      "sections": [
+        {
+          "id": "section1",
+          "image": {
+            "src": "img/tcpgif.gif",
+            "alt": "3-Way Handshake"
+          },
+          "title": "Protocollo TCP: Affidabilità e Connessione",
+          "text": [
+            "Il Transmission Control Protocol (TCP) è un protocollo orientato alla connessione, il che significa che stabilisce una connessione affidabile prima di trasferire i dati. Questo processo è noto come 3-Way Handshake:",
+            "1. Il client invia un pacchetto SYN al server per iniziare la connessione.",
+            "2. Il server risponde con un pacchetto SYN-ACK.",
+            "3. Il client conferma con un pacchetto ACK, completando il processo.",
+            "Una volta stabilita la connessione, TCP garantisce che i dati arrivano in ordine e senza errori, grazie a meccanismi come il controllo degli errori e la ritrasmissione dei pacchetti persi. Questo lo rende ideale per applicazioni che richiedono alta affidabilità, come la navigazione web o il trasferimento di file."
+          ]
+        },
+        {
+          "id": "section2",
+          "image": {
+            "src": "img/udpExplanation.jpg",
+            "alt": "UDP Explanation"
+          },
+          "title": "Protocollo UDP: Velocità e Semplicità",
+          "text": [
+            "L'User Datagram Protocol (UDP) è un protocollo senza connessione, il che significa che non stabilisce una connessione affidabile prima di trasferire i dati. I dati vengono inviati sotto forma di datagrammi senza garanzie di consegna o ordine. Questo lo rende molto più veloce rispetto al TCP, ma meno affidabile.",
+            "UDP supporta varie modalità di trasmissione:",
+            "<ul><li><strong>Unicast</strong>: Dati inviati a un singolo destinatario.</li><li><strong>Multicast</strong>: Dati inviati a un gruppo specifico di destinatari.</li><li><strong>Broadcast</strong>: Dati inviati a tutti i dispositivi sulla rete.</li></ul>",
+            "Grazie alla sua velocità, UDP è spesso utilizzato per applicazioni che non richiedono affidabilità completa, come lo streaming video o i giochi online."
+          ]
+        },
+        {
+          "id": "section3",
+          "image": {
+            "src": "img/tcpOrUdp.png",
+            "alt": "TCP or UDP"
+          },
+          "title": "Quando usare TCP e quando UDP?",
+          "text": [
+            "La scelta tra TCP e UDP dipende dal tipo di applicazione e dalle esigenze specifiche:",
+            "<ul><li><strong>TCP</strong>: Ideale per applicazioni che richiedono affidabilità e integrità dei dati. Esempi includono:<ul><li>HTTP/HTTPS per la navigazione web.</li><li>SMTP per l'invio di email.</li><li>FTP per il trasferimento di file.</li></ul></li><li><strong>UDP</strong>: Preferito per applicazioni che richiedono velocità e tollerano una perdita minima di dati. Esempi includono:<ul><li>Streaming video e audio (es. YouTube, Netflix).</li><li>Giochi online in tempo reale.</li><li>VoIP per chiamate vocali.</li></ul></li></ul>",
+            "Entrambi i protocolli hanno i loro punti di forza e vengono scelti in base alle necessità dell'applicazione."
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "logoAlt": "Logo",
+      "author": "Michele Cervati 5°F",
+      "links": [
+        { "name": "Home", "href": "index.html" },
+        { "name": "Socket", "href": "socket.html" },
+        { "name": "ISO/OSI", "href": "ISO_OSI.html" },
+        { "name": "Protocolli", "href": "Differenze_TCP_UDP.html" },
+        { "name": "Glossario", "href": "Glossario.html" }
+      ],
+      "social": {
+        "instagram": {
+          "href": "https://www.instagram.com/username",
+          "text": "Instagram"
+        }
+      }
+    }
+  }
+  
+
+  

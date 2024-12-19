@@ -1,0 +1,53 @@
+{
+    "navbar": {
+      "brand": "Le Socket",
+      "links": [
+        { "text": "Home", "href": "index.html" },
+        { "text": "Socket", "href": "socket.html" },
+        { "text": "ISO/OSI", "href": "ISO_OSI.html" },
+        { "text": "Protocolli", "href": "Differenze_TCP_UDP.html" },
+        { "text": "Glossario", "href": "Glossario.html" }
+      ]
+    },
+    "main": {
+      "title": "Le Socket",
+      "subtitle": "Ciò che rende possibile le connessioni e i servizi internet che usiamo tutti i giorni",
+      "sections": [
+        {
+          "title": "Che cos'è una socket?",
+          "image": "img/socket1.png",
+          "alt": "Sockets",
+          "text": "Le socket rappresentano uno dei fondamenti della comunicazione nei sistemi di rete. Sono punti di connessione che consentono a due dispositivi di scambiarsi dati, permettendo l'interazione tra client e server. Le socket sono utilizzate in moltissimi contesti, dalla navigazione web alle app di messaggistica in tempo reale. Comprendere come funzionano le socket è essenziale per chiunque voglia lavorare con la programmazione di rete.",
+          "link": { "text": "Scopri di più sulle Socket", "href": "socket.html" }
+        },
+        {
+          "title": "Socket nel Modello ISO/OSI",
+          "image": "img/OSI_stack.jpg",
+          "alt": "Sockets in ISO/OSI Model",
+          "text": "Nel modello ISO/OSI, le socket giocano un ruolo fondamentale nello strato di trasporto. Questo livello garantisce che i dati vengano trasferiti in modo affidabile tra dispositivi, gestendo problemi come la perdita di pacchetti o l'ordine dei dati. Le socket si interfacciano anche con livelli superiori, come lo strato di applicazione, per fornire servizi di rete avanzati. Il loro utilizzo rende possibile una comunicazione strutturata e scalabile su reti locali e globali.",
+          "link": { "text": "Scopri di più sul modello ISO/OSI", "href": "ISO_OSI.html" }
+        },
+        {
+          "title": "Differenze tra TCP e UDP",
+          "image": "img/tcp_vs_udp.jpg",
+          "alt": "TCP vs UDP",
+          "text": "TCP (Transmission Control Protocol) e UDP (User Datagram Protocol) sono due protocolli fondamentali per le comunicazioni di rete. TCP offre un servizio affidabile e orientato alla connessione, perfetto per applicazioni come email e trasferimenti di file. UDP, al contrario, è veloce e non garantisce l'affidabilità, rendendolo ideale per streaming video e giochi online. Entrambi hanno i loro vantaggi e limitazioni.",
+          "link": { "text": "Approfondisci TCP e UDP", "href": "Differenze_TCP_UDP.html" }
+        }
+      ]
+    },
+    "footer": {
+      "quick_links": [
+        { "text": "Home", "href": "index.html" },
+        { "text": "Socket", "href": "socket.html" },
+        { "text": "ISO/OSI", "href": "ISO_OSI.html" },
+        { "text": "Protocolli", "href": "Differenze_TCP_UDP.html" },
+        { "text": "Glossario", "href": "Glossario.html" }
+      ],
+      "author": "Michele Cervati 5\u00b0F",
+      "social_links": [
+        { "platform": "Instagram", "icon": "bi bi-instagram", "href": "#" }
+      ]
+    }
+  }
+  

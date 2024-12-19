@@ -1,0 +1,60 @@
+{
+    "title": "ISO/OSI - Dettagli",
+    "navbar": {
+      "logoAlt": "Logo",
+      "links": [
+        { "name": "Home", "href": "index.html" },
+        { "name": "Socket", "href": "socket.html" },
+        { "name": "ISO/OSI", "href": "ISO_OSI.html" },
+        { "name": "Protocolli", "href": "Differenze_TCP_UDP.html" },
+        { "name": "Glossario", "href": "Glossario.html" }
+      ]
+    },
+    "mainContent": {
+      "header": {
+        "title": "Le socket nella pila ISO/OSI",
+        "subtitle": "Dove si collocano all'interno del modello ISO/OSI le socket e cosa implementano"
+      },
+      "sections": [
+        {
+          "id": "section1",
+          "image": {
+            "src": "img/OSI_stack.jpg",
+            "alt": "ISO/OSI Stack"
+          },
+          "title": "Il Layer di Trasporto nel Modello ISO/OSI",
+          "text": "Il modello ISO/OSI è composto da sette strati che definiscono come i dati vengono trasferiti in una rete. Il Layer di Trasporto è il quarto strato del modello e si occupa della trasmissione affidabile dei dati tra due dispositivi. I due principali protocolli utilizzati in questo strato sono TCP (Transmission Control Protocol) e UDP (User Datagram Protocol). Questi protocolli si occupano di segmentare i dati, gestire la connessione e garantire che i dati vengano ricevuti correttamente dal destinatario."
+        },
+        {
+          "id": "section2",
+          "image": {
+            "src": "img/socketAddr.webp",
+            "alt": "Socket Address"
+          },
+          "title": "Indirizzo della Socket: IP e Porta",
+          "text": "Un indirizzo di socket è formato da due componenti principali: l'indirizzo IP e il numero di porta. L'indirizzo IP identifica un dispositivo in una rete, mentre la porta è utilizzata per identificare un'applicazione specifica che sta ascoltando sul dispositivo. Insieme, questi due elementi costituiscono l'indirizzo della socket, che permette a un client di comunicare con un server in modo preciso e mirato."
+        },
+        {
+          "id": "section3",
+          "image": {
+            "src": "img/wellknowports.png",
+            "alt": "Well Known Ports"
+          },
+          "title": "Tipi di Porta: Well-known, Registered e Dynamic",
+          "text": "Le porte possono essere suddivise in tre categorie principali:\n<ul>\n  <li><strong>Well-known ports</strong> (Porte Ben Note): Queste porte vanno da 0 a 1023 e sono riservate a protocolli di sistema, come HTTP (porta 80) e FTP (porta 21).</li>\n  <li><strong>Registered ports</strong> (Porte Registrate): Vanno da 1024 a 49151 e sono assegnate a servizi privati e applicazioni.</li>\n  <li><strong>Dynamic or Private ports</strong> (Porte Dinamiche o Private): Vanno da 49152 a 65535 e vengono utilizzate per connessioni temporanee o non fisse.</li>\n</ul>\nQui di fianco è possibile trovare alcuni esempi di well-known ports. Ogni protocollo, come TCP o UDP, utilizza specifiche porte per stabilire connessioni affidabili e comunicare in modo sicuro.\n<a href=\"Differenze_TCP_UDP.html\" class=\"text-decoration-none text-primary fw-bold\">Scopri le differenze tra TCP e UDP</a>."
+        }
+      ]
+    },
+    "footer": {
+      "logoAlt": "Logo",
+      "author": "Michele Cervati 5°F",
+      "links": [
+        { "name": "Home", "href": "index.html" },
+        { "name": "Socket", "href": "socket.html" },
+        { "name": "ISO/OSI", "href": "ISO_OSI.html" },
+        { "name": "Protocolli", "href": "Differenze_TCP_UDP.html" },
+        { "name": "Glossario", "href": "Glossario.html" }
+      ]
+    }
+  }
+  

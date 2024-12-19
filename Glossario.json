@@ -1,0 +1,82 @@
+{
+    "title": "Glossario",
+    "navbar": {
+      "links": [
+        {"name": "Home", "href": "index.html"},
+        {"name": "Socket", "href": "socket.html"},
+        {"name": "ISO/OSI", "href": "ISO_OSI.html"},
+        {"name": "Protocolli", "href": "Differenze_TCP_UDP.html"},
+        {"name": "Glossario", "href": "Glossario.html"}
+      ]
+    },
+    "mainContent": {
+      "header": {
+        "title": "Glossario",
+        "subtitle": "Termini tecnici e le loro definizioni per capire meglio il networking."
+      },
+      "cards": [
+        {
+          "title": "Socket",
+          "link": "https://www.ibm.com/docs/en/zos/2.4.0?topic=concepts-understanding-sockets",
+          "description": "Un'interfaccia software che consente la comunicazione tra processi su reti o sullo stesso dispositivo, utilizzando protocolli come TCP o UDP."
+        },
+        {
+          "title": "TCP",
+          "link": "https://www.ibm.com/docs/en/zos/2.4.0?topic=concepts-understanding-sockets",
+          "description": "Il Transmission Control Protocol è un protocollo orientato alla connessione, che garantisce la consegna affidabile e ordinata dei dati tra dispositivi."
+        },
+        {
+          "title": "UDP",
+          "link": "https://www.ibm.com/docs/en/zos/2.4.0?topic=concepts-understanding-sockets",
+          "description": "User Datagram Protocol è un protocollo senza connessione che trasmette dati rapidamente senza garantire la consegna o l'ordine."
+        },
+        {
+          "title": "Unicast",
+          "link": "https://www.ibm.com/docs/en/zos/2.4.0?topic=concepts-understanding-sockets",
+          "description": "Modalità di trasmissione in cui i dati vengono inviati a un singolo destinatario sulla rete."
+        },
+        {
+          "title": "Broadcast",
+          "link": "https://www.ibm.com/docs/en/zos/2.4.0?topic=concepts-understanding-sockets",
+          "description": "Metodo di trasmissione in cui i dati vengono inviati a tutti i dispositivi connessi a una rete."
+        },
+        {
+          "title": "Multicast",
+          "link": "https://www.ibm.com/docs/en/zos/2.4.0?topic=concepts-understanding-sockets",
+          "description": "Tecnica di trasmissione che invia dati a un gruppo specifico di destinatari, utile per streaming o videoconferenze."
+        },
+        {
+          "title": "Server Port",
+          "link": "https://www.ibm.com/docs/en/zos/2.4.0?topic=concepts-understanding-sockets",
+          "description": "Un identificatore numerico utilizzato nei protocolli TCP/UDP per distinguere i servizi o le applicazioni in esecuzione su un dispositivo."
+        },
+        {
+          "title": "3-Way Handshake",
+          "link": "https://www.ibm.com/docs/en/zos/2.4.0?topic=concepts-understanding-sockets",
+          "description": "Procedura utilizzata dal TCP per stabilire una connessione tra client e server, composta da pacchetti SYN, SYN-ACK e ACK."
+        },
+        {
+          "title": "ISO/OSI",
+          "link": "https://www.ibm.com/docs/en/zos/2.4.0?topic=concepts-understanding-sockets",
+          "description": "Modello di riferimento che descrive le funzioni di rete in sette livelli, dal fisico all'applicativo, per standardizzare le comunicazioni."
+        }
+      ]
+    },
+    "footer": {
+      "author": "Michele Cervati 5°F",
+      "links": [
+        {"name": "Home", "href": "index.html"},
+        {"name": "Socket", "href": "socket.html"},
+        {"name": "ISO/OSI", "href": "ISO_OSI.html"},
+        {"name": "Protocolli", "href": "Differenze_TCP_UDP.html"},
+        {"name": "Glossario", "href": "Glossario.html"}
+      ],
+      "social": {
+        "instagram": {
+          "href": "https://www.instagram.com",
+          "text": "Instagram"
+        }
+      }
+    }
+  }
+  
